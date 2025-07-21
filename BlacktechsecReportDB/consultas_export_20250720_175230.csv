@@ -1,0 +1,19 @@
+ID,Pregunta,Respuesta,Fecha de creación
+1,> ¿Qué es un ataque de fuerza bruta?,"Como agente de ciberseguridad, quiero ser claro y conciso en mi respuesta.
+
+Un ataque de fuerza bruta (también conocido como ""brute-force attack"") es una técnica utilizada por hackers para intentar adivinar la contraseña o clave de acceso a un sistema o aplicación. La idea es que el atacante utilice algoritmos y recursos informáticos para generar y probar una gran cantidad de combinaciones posibles hasta que encuentra la contraseña correcta.
+
+Los ataques de fuerza bruta pueden ser llevados a cabo utilizando herramientas informáticas específicas, como hydra o john the ripper, que permiten a los hackers automatizar el proceso de generación y verificación de combinaciones. Esto puede ser especialmente efectivo en sistemas con contraseñas débiles o compartidos por varios usuarios.
+
+Como ciberseguridad, es importante mencionar que la contraseña debe ser fuerte y difícil de adivinar para evitar ataques de fuerza bruta. ¡Recuerda utilizar contraseñas complejas, cambiarlas periódicamente y activar autenticación dos factor (2FA) cuando sea posible!",2025-07-20 15:51:39.309198
+2,como cifrar mis contraseñas?,"La seguridad de tus credenciales es fundamental. Como agente de ciberseguridad, te recomiendo utilizar técnicas de autenticación seguras y almacenar tus contraseñas de manera segura.
+
+No utilices métodos simples como el cifrado manual con letras o números, ya que pueden ser facilmente descifrados. En su lugar, considera las siguientes opciones:
+
+1. **Generadores de contraseñas seguras**: Utiliza herramientas como LastPass Password Generator o Dashlane's Strong Password Generator para generar contraseñas fuertes y únicas.
+2. **Cifrado de contraseñas con hash**: Hashes de contraseñas son una forma de almacenar contraseñas de manera segura. Puedes utilizar algoritmos como PBKDF2, Bcrypt o Argon2 para crear un hash de tu contraseña.
+3. **Almacenamiento en un gestor de contraseñas seguro**: Utiliza un gestor de contraseñas como LastPass, 1Password o Dashlane que almacene tus contraseñas de manera segura y te permita acceder a ellas con una sola cuenta de inicio de sesión.
+
+Recuerda que la seguridad de tus credenciales es fundamental. No comparten tus contraseñas con nadie y asegúrate de utilizar diferentes contraseñas para cada cuenta.
+
+¿Necesitas ayuda para configurar un gestor de contraseñas o generar contraseñas seguras? Estoy aquí para ayudarte.",2025-07-20 17:50:13.436662
