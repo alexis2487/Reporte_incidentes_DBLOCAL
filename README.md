@@ -24,17 +24,17 @@ dotenv - configuracion privada para el nombre del modelo a usar
 
 ## Iniciamos creado el directorio raiz con sus respectivas carpetas
 
-cyberreport_cli/
-│
-├── agent.py           # Agente LLM con prompt especializado
-├── db.py              # Manejo de base de datos SQLite
-├── main.py            # Punto de entrada, menú por terminal
-├── .env               # Configuración del modelo
-├── requirements.txt   # Lista de librerías necesarias
-├── README.md          # Guía técnica y explicación detallada
-├── check_db.py        # funcion que visaliza las interacciones
-├── export_db_to_cvs.py #exporta base de datos en formato .cvs
-└── consultas_export_20250720_175230.cvs #Archivo exportado por la funcion
+
+
+agent.py           # Agente LLM con prompt especializado
+db.py              # Manejo de base de datos SQLite
+main.py            # Punto de entrada, menú por terminal
+.env               # Configuración del modelo
+requirements.txt   # Lista de librerías necesarias
+README.md          # Guía técnica y explicación detallada
+check_db.py        # funcion que visaliza las interacciones
+export_db_to_cvs.py #exporta base de datos en formato .cvs
+consultas_export_20250720_175230.cvs #Archivo exportado por la funcion
 
 ## Requisitos
 - Tener Python 3.10 o superior
