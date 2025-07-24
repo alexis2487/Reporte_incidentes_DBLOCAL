@@ -1,54 +1,75 @@
-CyberReport CLI: Agente para reportes y consultas de seguridad
+# Reporte_incidentes_DBLOCAL
 
-Un agente inteligente que:
+Este repositorio contiene una aplicación para la gestión y reporte de incidentes en una base de datos local. El objetivo principal es proporcionar una herramienta eficiente para registrar, consultar y administrar reportes de incidentes, facilitando el seguimiento y la resolución de los mismos.
 
-* Recibe reportes de posibles incidentes de seguridad.
+## Características
 
-* esponde preguntas sobre ciberseguridad.
-
-* Guarda cada reporte con fecha, usuario, descripción e ID.
-
-* Permite consultar el historial de incidentes registrados.
-
-Todo funciona desde la terminal, guardando y consultando los datos desde una base de datos local SQLite. No necesita internet.
-
-## Technologias que se usaron:
-
-python - lenguaje principal
-ollama + llama3 - llm local responde las preguntas
-SQlite - es una base datos local integrada con python
-Langchain - para conectar el llm con los prompts
-dotenv - configuracion privada para el nombre del modelo a usar
-
-----------------------------------------------------------------------
-
-## Iniciamos creado el directorio raiz con sus respectivas carpetas
-
-
-
-agent.py           # Agente LLM con prompt especializado
-db.py              # Manejo de base de datos SQLite
-main.py            # Punto de entrada, menú por terminal
-.env               # Configuración del modelo
-requirements.txt   # Lista de librerías necesarias
-README.md          # Guía técnica y explicación detallada
-check_db.py        # funcion que visaliza las interacciones
-export_db_to_cvs.py #exporta base de datos en formato .cvs
-consultas_export_20250720_175230.cvs #Archivo exportado por la funcion
+- Registro de incidentes con información detallada.
+- Consulta y filtrado de reportes existentes.
+- Actualización del estado de los incidentes.
+- Interfaz sencilla y fácil de usar.
+- Soporte para base de datos local.
 
 ## Requisitos
-- Tener Python 3.10 o superior
-- Tener instalado `ollama` y haber hecho pull del modelo: `ollama pull llama3`
+
+- Python 3.x
+- SQLite3 (u otra base de datos local compatible)
+- [Agregar aquí otros requisitos específicos como frameworks o librerías]
 
 ## Instalación
 
-python -m venv venv
-venv\Scripts\activate       # En PowerShell o terminal VS Code
-pip install -r requirements.txt
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/alexis2487/Reporte_incidentes_DBLOCAL.git
+   cd Reporte_incidentes_DBLOCAL
+   ```
 
+2. Instala las dependencias necesarias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   > Si no existe un archivo `requirements.txt`, instala manualmente las dependencias mencionadas en la sección de requisitos.
+
+3. Configura la base de datos local (por ejemplo, ejecutando un script de inicialización si existe).
 
 ## Uso
 
-bash
-ollama run llama3            # En una terminal separada
-python main.py               # Para iniciar el agente
+1. Ejecuta la aplicación principal:
+   ```bash
+   python main.py
+   ```
+   > Sustituye `main.py` por el nombre correcto del archivo de entrada si es diferente.
+
+2. Usa la interfaz para registrar y administrar los incidentes.
+
+## Estructura del repositorio
+
+```
+Reporte_incidentes_DBLOCAL/
+├── src/                # Código fuente de la aplicación
+├── db/                 # Archivos de base de datos o scripts de inicialización
+├── docs/               # Documentación adicional
+├── requirements.txt    # Dependencias del proyecto
+├── README.md           # Este archivo
+└── ...                 # Otros archivos y carpetas relevantes
+```
+
+## Contribución
+
+¡Las contribuciones son bienvenidas! Por favor, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tus cambios.
+3. Envía un pull request describiendo tus modificaciones.
+
+## Licencia
+
+
+
+## Autor
+
+- alexis2487
+
+---
+
+> Si necesitas ayuda o tienes alguna sugerencia, no dudes en abrir un issue en este repositorio.
